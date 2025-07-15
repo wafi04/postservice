@@ -21,7 +21,7 @@ func (repo *PostRepository) Create(data models.Post) (*models.Post, error) {
 		INSERT INTO posts 
 		(
 			id,
-			user_id,
+			username,
 			mentions,
 			content,
 			media,
